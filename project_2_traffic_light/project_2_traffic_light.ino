@@ -12,8 +12,8 @@ void setup()
 void loop()
 {
   val=Serial.read();
-  if(val=='R')// determine if the instruction or character received is “S”.
-  {  // if it’s “S”,    
+  if(val=='R')// determine if the instruction or character received is “R”.
+  {  // if it’s “R”,    
     digitalWrite(redled, HIGH);//// turn on green LED
     delay(5000);// wait 5 seconds
     digitalWrite(redled, LOW); // turn off green LED
